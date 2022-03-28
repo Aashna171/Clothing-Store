@@ -9,11 +9,13 @@ body{
 table{
     border: 3px solid rgb(250, 108, 13);
     margin: 20px;
+    background-color: rgb(252, 147, 77);
 }
 td{
     border: 3px solid rgb(250, 108, 13);
     padding: 5px;
     font-size: large;
+    border-radius: 5px;
 }
 img{
     margin: 10px;
@@ -54,11 +56,16 @@ p{
 }
 input{
     border: 2px solid rgb(255, 96, 22);
+    border-radius: 7px;
 }
 .button{
     background-color: rgb(255, 102, 0);
-    border-radius: 10px;
+    border-radius: 20px;
     width: 200px;
     margin: auto;
     cursor: pointer;
+    font-size: x-large;
+}
+tr:hover{
+    background-color:rgb(255, 135, 55);
 }
